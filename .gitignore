@@ -1,0 +1,10 @@
+/node_modules/
+/release/
+*.exe
+*.msi
+*.dll
+*.node
+*.so
+*.dylib
+*.wasm
+*.wasm.download

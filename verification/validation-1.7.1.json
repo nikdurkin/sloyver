@@ -1,0 +1,166 @@
+{
+  "application": "Sloy Desktop",
+  "version": "1.7.1",
+  "date": "2026-10-28",
+  "platform": "Windows x64 portable",
+  "buildHost": "Linux",
+  "automatedTests": {
+    "total": 192,
+    "passed": 192,
+    "failed": 0
+  },
+  "packagedSource": {
+    "filesCompared": 80,
+    "matched": true,
+    "version": "1.7.1",
+    "packageEntries": 92
+  },
+  "windowsPayloadPE": "0x8664",
+  "portableExeSHA256": "9cd2278fb71343b4e670a6c9c5d60673a82a755c203b0c3f709d98b250076b19",
+  "portableExeBytes": 112756207,
+  "printerCatalogue": {
+    "officialSource": "Bambu Studio v02.08.02.61",
+    "models": 14,
+    "nozzleCombinations": 56,
+    "customPrinter": true,
+    "customMaterial": true
+  },
+  "nativeBambuStudio": {
+    "version": "02.08.02.61",
+    "host": "Linux",
+    "importAndRoundTripPassed": 57,
+    "cases": "verification/native-catalog-checks.json",
+    "retained": [
+      "orientation",
+      "build dimensions",
+      "nozzle diameters",
+      "layer",
+      "walls",
+      "infill",
+      "native density-only modifiers, with no local wall override"
+    ],
+    "actualSlicing": [
+      {
+        "case": "baseline",
+        "middleLayerWallLengthMm": 453.86400000000003,
+        "middleLayerInfillLengthMm": 343.4262223008444,
+        "extrusionsOutsideCAD": 0
+      },
+      {
+        "case": "walls-eight",
+        "middleLayerWallLengthMm": 829.6160000000001,
+        "middleLayerInfillLengthMm": 335.9819625363706,
+        "extrusionsOutsideCAD": 0
+      },
+      {
+        "case": "infill-only",
+        "middleLayerWallLengthMm": 453.86400000000003,
+        "middleLayerInfillLengthMm": 592.3521548633039,
+        "extrusionsOutsideCAD": 0
+      }
+    ]
+  },
+  "interfaceChecks": {
+    "RU_ENHeader": [
+      "Проверка локального усиления",
+      "Local reinforcement check"
+    ],
+    "languagePreferenceSaved": true,
+    "customMaterial": [
+      "E XY 2200 MPa",
+      "E Z 1200 MPa",
+      "tensile XY 50 MPa",
+      "tensile Z 25 MPa",
+      "synthetic QA values, not material data"
+    ],
+    "customPrinter": {
+      "bedMm": [
+        300,
+        250,
+        280
+      ],
+      "nozzleMm": 0.5
+    },
+    "manualFX": {
+      "USD_RUB": 90,
+      "EUR_RUB": 100
+    },
+    "manualMaterialPriceOverrideRubPerKg": 2500,
+    "projectRoundTrip": {
+      "format": 8,
+      "retains": [
+        "custom printer",
+        "custom material",
+        "manual FX",
+        "manual prices",
+        "20% infill",
+        "1 enlarged 15x20x15 mm region",
+        "full analysis result"
+      ]
+    },
+    "coarseCircle": {
+      "diameterMm": 0.4,
+      "meshSizeMm": 2.5,
+      "elements": 1024,
+      "nodes": 1377,
+      "analysisCompleted": true,
+      "approximationNoticeVisibleRU_EN": true
+    }
+  },
+  "prices": {
+    "source": "Official Bambu Lab US / EU store variant snapshots",
+    "date": "2026-10-28",
+    "verifiedMaterials": 17,
+    "materials": 18,
+    "unverifiedRequiresManualPrice": [
+      "PETG Basic"
+    ],
+    "currencies": [
+      "USD",
+      "EUR"
+    ],
+    "exchangeSource": "CBR",
+    "exchangeSnapshotDate": "2026-10-28",
+    "editableFX": true,
+    "manualRubPricePriority": true
+  },
+  "limitations": [
+    "Windows EXE cross-built; native Windows launch was not performed.",
+    "OrcaSlicer was not run separately.",
+    "Cloud-browser 3MF download was not confirmed; desktop uses native save IPC.",
+    "TDS tensile-only strength estimates are partial. Compression and shear are not fabricated.",
+    "Sparse-infill screening is approximate and uncalibrated for actual toolpaths.",
+    "Weak regions are not predicted crack paths; nonlinear fracture, impact, contact and buckling are not solved.",
+    "Reports and embedded 3MF comments may retain Russian text.",
+    "Unsigned executable."
+  ],
+  "meshBudget": {
+    "elements": 100000,
+    "nodes": 160000,
+    "domainCells": 4000000,
+    "coarsenAutomatically": true,
+    "approximateSelectedFeaturesMarked": true,
+    "approximateFeaturesCanConfirmStrength": false
+  },
+  "expandedMeshVerification": {
+    "elements": 51597,
+    "nodes": 57344,
+    "seconds": 9.221128997,
+    "peakRSSMiB": 345.5234375,
+    "maxDisplacement": 0.00250000002647716,
+    "expectedAxialDisplacement": 0.0025,
+    "iterations": 189,
+    "forceBalanceRelative": 5.5315539686614465e-09,
+    "momentBalanceRelative": 1.2211002888122868e-08
+  },
+  "reinforcement": {
+    "onlyChangesInfill": true,
+    "modifierMeshType": "other",
+    "nativeSubtype": "modifier_part",
+    "connectedStressRegionsWithMargin": true,
+    "mergeNearbyRegions": true,
+    "enlargeControl": 1.5,
+    "legacyWallOverrideIgnored": true,
+    "uiEnlargementVerified": "3 small boxes became one 15x20x15 mm region"
+  }
+}

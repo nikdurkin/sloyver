@@ -1,0 +1,573 @@
+[
+  {
+    "id": "a1-0.2",
+    "printer": "a1",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1-0.4",
+    "printer": "a1",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1-0.6",
+    "printer": "a1",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1-0.8",
+    "printer": "a1",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1mini-0.2",
+    "printer": "a1mini",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1mini-0.4",
+    "printer": "a1mini",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1mini-0.6",
+    "printer": "a1mini",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a1mini-0.8",
+    "printer": "a1mini",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a2l-0.2",
+    "printer": "a2l",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a2l-0.4",
+    "printer": "a2l",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a2l-0.6",
+    "printer": "a2l",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "a2l-0.8",
+    "printer": "a2l",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2c-0.2",
+    "printer": "h2c",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2c-0.4",
+    "printer": "h2c",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2c-0.6",
+    "printer": "h2c",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2c-0.8",
+    "printer": "h2c",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2d-0.2",
+    "printer": "h2d",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2d-0.4",
+    "printer": "h2d",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2d-0.6",
+    "printer": "h2d",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2d-0.8",
+    "printer": "h2d",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2dpro-0.2",
+    "printer": "h2dpro",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2dpro-0.4",
+    "printer": "h2dpro",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2dpro-0.6",
+    "printer": "h2dpro",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2dpro-0.8",
+    "printer": "h2dpro",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2s-0.2",
+    "printer": "h2s",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2s-0.4",
+    "printer": "h2s",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2s-0.6",
+    "printer": "h2s",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2s-0.8",
+    "printer": "h2s",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1p-0.2",
+    "printer": "p1p",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1p-0.4",
+    "printer": "p1p",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1p-0.6",
+    "printer": "p1p",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1p-0.8",
+    "printer": "p1p",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1s-0.2",
+    "printer": "p1s",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1s-0.4",
+    "printer": "p1s",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1s-0.6",
+    "printer": "p1s",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1s-0.8",
+    "printer": "p1s",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p2s-0.2",
+    "printer": "p2s",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p2s-0.4",
+    "printer": "p2s",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p2s-0.6",
+    "printer": "p2s",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p2s-0.8",
+    "printer": "p2s",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1-0.2",
+    "printer": "x1",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1-0.4",
+    "printer": "x1",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1-0.6",
+    "printer": "x1",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1-0.8",
+    "printer": "x1",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1c-0.2",
+    "printer": "x1c",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1c-0.4",
+    "printer": "x1c",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1c-0.6",
+    "printer": "x1c",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1c-0.8",
+    "printer": "x1c",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1e-0.2",
+    "printer": "x1e",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1e-0.4",
+    "printer": "x1e",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1e-0.6",
+    "printer": "x1e",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1e-0.8",
+    "printer": "x1e",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x2d-0.2",
+    "printer": "x2d",
+    "nozzle": 0.2,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x2d-0.4",
+    "printer": "x2d",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x2d-0.6",
+    "printer": "x2d",
+    "nozzle": 0.6,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x2d-0.8",
+    "printer": "x2d",
+    "nozzle": 0.8,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "general-0.5",
+    "printer": "general",
+    "nozzle": 0.5,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true,
+    "customGcodeEmpty": true
+  }
+]

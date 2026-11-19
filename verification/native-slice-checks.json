@@ -1,0 +1,20 @@
+[
+  {
+    "case": "baseline",
+    "middleLayerWallLengthMm": 453.86400000000003,
+    "middleLayerInfillLengthMm": 343.4262223008444,
+    "extrusionsOutsideCAD": 0
+  },
+  {
+    "case": "walls-eight",
+    "middleLayerWallLengthMm": 829.6160000000001,
+    "middleLayerInfillLengthMm": 335.9819625363706,
+    "extrusionsOutsideCAD": 0
+  },
+  {
+    "case": "infill-only",
+    "middleLayerWallLengthMm": 453.86400000000003,
+    "middleLayerInfillLengthMm": 592.3521548633039,
+    "extrusionsOutsideCAD": 0
+  }
+]

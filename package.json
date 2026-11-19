@@ -1,0 +1,60 @@
+{
+  "name": "sloyver-desktop",
+  "productName": "Слойвер",
+  "version": "1.8.0",
+  "description": "Ориентация моделей и оценка стоимости FDM-печати",
+  "author": "Sloyver",
+  "private": true,
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.*",
+    "build:win": "electron-builder --win portable --x64",
+    "build:installer": "electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "com.sloy.desktop",
+    "productName": "Слойвер",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/**",
+      "renderer/**",
+      "assets/**",
+      "package.json",
+      "README-RU.html",
+      "README-EN.html",
+      "THIRD-PARTY-NOTICES.txt"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "executableName": "Sloyver",
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "Sloyver-Desktop-${version}-Windows-x64.exe",
+      "requestExecutionLevel": "user"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "artifactName": "Sloyver-Setup-${version}-Windows-x64.exe"
+    }
+  }
+}
