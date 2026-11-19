@@ -1,0 +1,11 @@
+{
+  "elements": 51597,
+  "nodes": 57344,
+  "seconds": 9.221128997,
+  "peakRSSMiB": 345.5234375,
+  "maxDisplacement": 0.00250000002647716,
+  "expectedAxialDisplacement": 0.0025,
+  "iterations": 189,
+  "forceBalanceRelative": 5.5315539686614465e-9,
+  "momentBalanceRelative": 1.2211002888122868e-8
+}

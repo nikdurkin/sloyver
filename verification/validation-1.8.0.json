@@ -1,0 +1,116 @@
+{
+  "application": "Слойвер / Sloyver Desktop",
+  "version": "1.8.0",
+  "date": "2026-10-28",
+  "changes": [
+    "One changing side panel and three large steps: Model, Load, Result",
+    "Large headings, key actions and priority options",
+    "First-use help, glossary, optional sample, and an explicit skip-load-check action",
+    "Simpler support/load menu, direction reversal, simpler check setup and results",
+    "Expert settings remain in expandable sections; clear 3MF handoff instructions"
+  ],
+  "automatedTests": {
+    "tests": 196,
+    "pass": 196,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "browserUiCheck": {
+    "performed": true,
+    "environment": "Cloud Chromium, local renderer; CPU canvas fallback because WebGL is unavailable",
+    "checks": [
+      "Fresh empty project and optional demo",
+      "Single-panel navigation and return to Model",
+      "RU/EN interface and first-steps help",
+      "Manual material selection retained for check, cost and 3MF",
+      "Version-8 synthetic project import and restoration",
+      "Real FEM run and local reinforcement rerun on synthetic clamped beam",
+      "Cached results restored after reload",
+      "Hole popup: support and force/torque actions, popup closes after selection",
+      "Moment arrow reversal preserves magnitude and unit",
+      "Nested direction disclosure stays open after editing",
+      "Incomplete load scheme blocks main check action",
+      "Explicitly skipped load check produces no confirmed-strength claim",
+      "Ready scheme can open check setup from the Result panel",
+      "Preflight reports a load placed entirely on fixed nodes",
+      "3MF dialog prepares current recipe, material and enabled modifier",
+      "Light and dark theme review",
+      "Heading sizes verified: navigation 20px, panel 27px; main buttons 16px"
+    ]
+  },
+  "compatibility": {
+    "projectExtension": ".sloy",
+    "projectVersions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "userData": "%APPDATA%\\SloyDesktop",
+    "appId": "com.sloy.desktop",
+    "origin": "sloy://app",
+    "storageAndIpcIdentifiersRetained": true,
+    "originalStaticControlIdsRetained": 141,
+    "currentStaticIds": 166,
+    "unchangedCalculationAndDataFiles": [
+      "renderer/fem/assessment.js",
+      "renderer/fem/boundary.js",
+      "renderer/fem/constraints.js",
+      "renderer/fem/fields.js",
+      "renderer/fem/load-verdict.js",
+      "renderer/fem/material.js",
+      "renderer/fem/mesh.js",
+      "renderer/fem/planning.js",
+      "renderer/fem/preconditioner.js",
+      "renderer/fem/print-structure.js",
+      "renderer/fem/reinforcement.js",
+      "renderer/fem/solver.js",
+      "renderer/fem/store.js",
+      "renderer/load-scheme.js",
+      "renderer/load-units.js",
+      "renderer/materials.json",
+      "renderer/prices.json"
+    ]
+  },
+  "package": {
+    "application": "Слойвер",
+    "version": "1.8.0",
+    "date": "2026-10-28",
+    "sourceByteMatches": true,
+    "packagedFiles": 84,
+    "machine": "0x8664",
+    "portableContainerTest": "passed",
+    "embeddedPayloadCrcTest": "passed",
+    "portableAsarMatchesUnpacked": true,
+    "windowsProductName": "Слойвер",
+    "windowsExecutableName": "Sloyver.exe",
+    "windowsVersionInfo": [
+      {
+        "CompanyName": "Sloyver",
+        "FileDescription": "Слойвер",
+        "FileVersion": "1.8.0",
+        "InternalName": "Sloyver",
+        "LegalCopyright": "Copyright © 2026 Sloyver",
+        "OriginalFilename": "",
+        "ProductName": "Слойвер",
+        "ProductVersion": "1.8.0.0",
+        "SquirrelAwareVersion": "1"
+      }
+    ],
+    "asarSha256": "d4be45aecfde50eeddf52430927baaabbaa40abf4752b09020864d7d86baf120",
+    "portableSha256": "7f9f686a49804b6cee0187b845ab806e96bbe471005c2660a1a6de3bc7b52ca3",
+    "portableBytes": 129372184,
+    "nativeWindowsLaunch": false
+  },
+  "limits": {
+    "nativeWindowsLaunch": false,
+    "browser3mfDownload": "Dialog and save-success UI path observed; browser download bytes were not independently captured. Desktop native save IPC is unchanged. Generator and settings are covered by automated tests.",
+    "nativeSlicerRegression": "Not rerun for this UI release. Previous 1.7.1 vendor CLI checks are historical and retained in verification/.",
+    "physicalStrengthValidation": "Not performed. Results remain preliminary; mesh/material limitations are preserved."
+  }
+}

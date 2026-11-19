@@ -1,0 +1,1500 @@
+{
+  "checked_on": "2026-10-27",
+  "units": {
+    "E": "MPa",
+    "tensile": "MPa",
+    "flexural": "MPa",
+    "impact": "kJ/m²",
+    "density": "g/cm³",
+    "absorption": "% at 25 °C,55% RH"
+  },
+  "notes": [
+    "XY/Z mean in-plane / build-axis test specimens. These are typical standardized-test values, not design allowables.",
+    "Tensile, flexural, unnotched impact and notched impact must remain distinct quantities.",
+    "No Poisson ratio, directional shear modulus, compressive strength, shear strength, fatigue or creep curves are supplied in the extracted TDS. Do not invent them as manufacturer data.",
+    "All mechanical specimens have 100% infill; most sheets say specimens were annealed and dried. Use the conditioning field for each material.",
+    "Do not linearly multiply strength by sparse infill percentage, nozzle diameter or inverse layer height. Any homogenized sparse-infill factor is an explicit unvalidated model assumption.",
+    "Impact strength ISO 179 is a standardized Charpy specimen quantity; it is not fracture energy for arbitrary geometry. Do not convert it into a static interlayer allowable or calculate a certified fall height from it."
+  ],
+  "materials": [
+    {
+      "id": "pla-basic",
+      "name": "PLA Basic",
+      "version": "TDS V3.0",
+      "E_xy": [
+        2580,
+        220
+      ],
+      "E_z": [
+        2060,
+        170
+      ],
+      "tensile_xy": [
+        35,
+        4
+      ],
+      "tensile_z": [
+        31,
+        3
+      ],
+      "flexuralModulus_xy": [
+        2750,
+        160
+      ],
+      "flexuralModulus_z": [
+        2370,
+        150
+      ],
+      "flexuralStrength_xy": [
+        76,
+        5
+      ],
+      "flexuralStrength_z": [
+        59,
+        6
+      ],
+      "impact_xy": [
+        26.6,
+        2.8
+      ],
+      "impact_z": [
+        13.8,
+        0.9
+      ],
+      "impactNotched_xy": [
+        7.9,
+        1.2
+      ],
+      "density": 1.24,
+      "absorption": 0.43,
+      "dryC": 50,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        190,
+        230
+      ],
+      "bedC": [
+        35,
+        45
+      ],
+      "bedNote": "TDS older cool-plate-compatible range; use selected PEI plate profile separately.",
+      "fanPct": [
+        100,
+        100
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; test print 220 °C / bed 35 °C / 200 mm/s; annealed and dried 55 °C 8 h",
+      "url": "https://store.bblcdn.com/s1/default/58b85d0f3db94878854a28fdb8a0006e/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+      "ref": "turn6view0"
+    },
+    {
+      "id": "petg-basic-new",
+      "name": "PETG Basic (обновлённый состав)",
+      "version": "TDS V3.0, new formulation",
+      "E_xy": [
+        2780,
+        65
+      ],
+      "E_z": [
+        2550,
+        100
+      ],
+      "tensile_xy": [
+        51,
+        1
+      ],
+      "tensile_z": [
+        35,
+        6
+      ],
+      "flexuralModulus_xy": [
+        1950,
+        50
+      ],
+      "flexuralModulus_z": [
+        1740,
+        40
+      ],
+      "flexuralStrength_xy": [
+        75,
+        3
+      ],
+      "flexuralStrength_z": [
+        56,
+        4
+      ],
+      "impact_xy": [
+        34.2,
+        4.1
+      ],
+      "impact_z": [
+        10.5,
+        1.8
+      ],
+      "impactNotched_xy": null,
+      "density": 1.25,
+      "absorption": 0.45,
+      "dryC": 65,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        230,
+        260
+      ],
+      "bedC": [
+        65,
+        75
+      ],
+      "fanPct": [
+        0,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; X1-Carbon 255 °C / 70 °C / 150 mm/s; post-annealing not stated; sheet says annealing prints not recommended",
+      "url": "https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf",
+      "ref": "turn12view1"
+    },
+    {
+      "id": "petg-hf",
+      "name": "PETG HF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        1810,
+        190
+      ],
+      "E_z": [
+        1540,
+        130
+      ],
+      "tensile_xy": [
+        34,
+        4
+      ],
+      "tensile_z": [
+        23,
+        4
+      ],
+      "flexuralModulus_xy": [
+        2050,
+        120
+      ],
+      "flexuralModulus_z": [
+        1810,
+        140
+      ],
+      "flexuralStrength_xy": [
+        64,
+        3
+      ],
+      "flexuralStrength_z": [
+        48,
+        4
+      ],
+      "impact_xy": [
+        31.5,
+        2.2
+      ],
+      "impact_z": [
+        10.6,
+        1.2
+      ],
+      "impactNotched_xy": [
+        6.2,
+        1.8
+      ],
+      "density": 1.28,
+      "absorption": 0.4,
+      "dryC": 65,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        230,
+        260
+      ],
+      "bedC": [
+        65,
+        75
+      ],
+      "fanPct": [
+        0,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; 255 °C / 70 °C / 200 mm/s; annealed and dried 75 °C 8 h; sheet nevertheless discourages annealing complex prints",
+      "url": "https://store.bblcdn.com/ce12d65176a94f1086e6aefa238e62e2.pdf",
+      "ref": "turn12view2"
+    },
+    {
+      "id": "abs",
+      "name": "ABS",
+      "version": "TDS V3.0",
+      "E_xy": [
+        2200,
+        190
+      ],
+      "E_z": [
+        1960,
+        110
+      ],
+      "tensile_xy": [
+        33,
+        3
+      ],
+      "tensile_z": [
+        28,
+        2
+      ],
+      "flexuralModulus_xy": [
+        1880,
+        110
+      ],
+      "flexuralModulus_z": [
+        1590,
+        100
+      ],
+      "flexuralStrength_xy": [
+        62,
+        4
+      ],
+      "flexuralStrength_z": [
+        39,
+        4
+      ],
+      "impact_xy": [
+        39.3,
+        3.6
+      ],
+      "impact_z": [
+        7.4,
+        1.2
+      ],
+      "impactNotched_xy": [
+        21.5,
+        2.2
+      ],
+      "density": 1.05,
+      "absorption": 0.65,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        240,
+        270
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "fanPct": [
+        0,
+        80
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; 260 °C / 80 °C / 200 mm/s; annealed and dried 80 °C 12 h",
+      "url": "https://store.bblcdn.com/s7/default/23b4cf2b83d5470bb96d19970b5f3ae8/Bambu_ABS_Technical_Data_Sheet_V3.pdf",
+      "ref": "turn10view0"
+    },
+    {
+      "id": "asa",
+      "name": "ASA",
+      "version": "TDS V3.0",
+      "E_xy": [
+        2450,
+        270
+      ],
+      "E_z": [
+        2120,
+        260
+      ],
+      "tensile_xy": [
+        37,
+        3
+      ],
+      "tensile_z": [
+        31,
+        4
+      ],
+      "flexuralModulus_xy": [
+        1920,
+        130
+      ],
+      "flexuralModulus_z": [
+        1650,
+        120
+      ],
+      "flexuralStrength_xy": [
+        65,
+        5
+      ],
+      "flexuralStrength_z": [
+        40,
+        3
+      ],
+      "impact_xy": [
+        41.0,
+        2.3
+      ],
+      "impact_z": [
+        4.9,
+        0.6
+      ],
+      "impactNotched_xy": [
+        19.6,
+        1.8
+      ],
+      "density": 1.05,
+      "absorption": 0.45,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        240,
+        270
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "fanPct": [
+        0,
+        80
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; 260 °C / 80 °C / 200 mm/s; annealed and dried 80 °C 12 h",
+      "url": "https://store.bblcdn.com/s6/default/475e2664ff4d428fad1ffd93677c3b20/Bambu_ASA_Technical_Data_Sheet.pdf",
+      "ref": "turn10view1"
+    },
+    {
+      "id": "pc",
+      "name": "PC",
+      "version": "TDS V3.0",
+      "E_xy": [
+        2110,
+        40
+      ],
+      "E_z": [
+        1450,
+        60
+      ],
+      "tensile_xy": [
+        55,
+        4
+      ],
+      "tensile_z": [
+        34,
+        3
+      ],
+      "flexuralModulus_xy": [
+        2310,
+        70
+      ],
+      "flexuralModulus_z": [
+        1620,
+        80
+      ],
+      "flexuralStrength_xy": [
+        108,
+        4
+      ],
+      "flexuralStrength_z": [
+        55,
+        2
+      ],
+      "impact_xy": [
+        34.8,
+        2.1
+      ],
+      "impact_z": [
+        9.0,
+        0.4
+      ],
+      "impactNotched_xy": [
+        7.5,
+        1.3
+      ],
+      "density": 1.2,
+      "absorption": 0.25,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        260,
+        280
+      ],
+      "bedC": [
+        90,
+        110
+      ],
+      "fanPct": [
+        0,
+        60
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; 270 °C / 100 °C / 200 mm/s in table (footnote says 100 mm/s); annealed and dried 80 °C 12 h",
+      "sourceCaution": "This V3 has HDT 1.8 MPa=117 °C and HDT 0.45 MPa=112 °C, a likely inversion/inconsistency. Do not use for quantitative temperature derating. Old comparison guides show different modulus/strength/impact numbers; pin this version.",
+      "url": "https://store.bblcdn.com/3bf3be91a7164c86a7e5ceffb18ee21b.pdf",
+      "ref": "turn10view2"
+    },
+    {
+      "id": "paht-cf",
+      "name": "PAHT-CF",
+      "version": "TDS V3.0 (filename V2)",
+      "E_xy": [
+        3860,
+        230
+      ],
+      "E_z": [
+        2180,
+        130
+      ],
+      "tensile_xy": [
+        92,
+        7
+      ],
+      "tensile_z": [
+        47,
+        5
+      ],
+      "flexuralModulus_xy": [
+        4230,
+        210
+      ],
+      "flexuralModulus_z": [
+        1820,
+        170
+      ],
+      "flexuralStrength_xy": [
+        125,
+        7
+      ],
+      "flexuralStrength_z": [
+        61,
+        5
+      ],
+      "impact_xy": [
+        57.5,
+        3.4
+      ],
+      "impact_z": [
+        13.3,
+        0.8
+      ],
+      "impactNotched_xy": [
+        22.8,
+        1.8
+      ],
+      "density": 1.06,
+      "absorption": 0.88,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        260,
+        290
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "fanPct": [
+        0,
+        40
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "Dry state; 100% infill; 290 °C / 100 °C / 100 mm/s; annealed and dried 80 °C 12 h",
+      "url": "https://store.bblcdn.eu/s8/default/91dea87af3414d878a0696d2c51b98f7/Bambu_PAHT-CF_Technical_Data_Sheet_V2.pdf",
+      "ref": "turn6view2"
+    },
+    {
+      "id": "pa6-cf",
+      "name": "PA6-CF",
+      "version": "TDS V3.0",
+      "E_xy": [
+        4430,
+        310
+      ],
+      "E_z": [
+        2170,
+        230
+      ],
+      "tensile_xy": [
+        102,
+        7
+      ],
+      "tensile_z": [
+        48,
+        6
+      ],
+      "flexuralModulus_xy": [
+        5460,
+        280
+      ],
+      "flexuralModulus_z": [
+        2240,
+        220
+      ],
+      "flexuralStrength_xy": [
+        151,
+        8
+      ],
+      "flexuralStrength_z": [
+        80,
+        7
+      ],
+      "impact_xy": [
+        40.3,
+        2.5
+      ],
+      "impact_z": [
+        15.5,
+        1.7
+      ],
+      "impactNotched_xy": [
+        13.4,
+        1.7
+      ],
+      "density": 1.09,
+      "absorption": 2.35,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        260,
+        290
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "fanPct": [
+        0,
+        60
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "Dry state; 100% infill; 280 °C / 100 °C / 100 mm/s; annealed and dried 80 °C 12 h",
+      "url": "https://store.bblcdn.com/b2abc59ac250492b979a52f1ce3e61b3.pdf",
+      "ref": "turn10view3"
+    },
+    {
+      "id": "pet-cf",
+      "name": "PET-CF",
+      "version": "TDS V3.0",
+      "E_xy": [
+        4730,
+        260
+      ],
+      "E_z": [
+        2160,
+        170
+      ],
+      "tensile_xy": [
+        74,
+        6
+      ],
+      "tensile_z": [
+        35,
+        5
+      ],
+      "flexuralModulus_xy": [
+        5320,
+        270
+      ],
+      "flexuralModulus_z": [
+        2210,
+        180
+      ],
+      "flexuralStrength_xy": [
+        131,
+        6
+      ],
+      "flexuralStrength_z": [
+        49,
+        5
+      ],
+      "impact_xy": [
+        36.0,
+        2.7
+      ],
+      "impact_z": [
+        4.5,
+        0.6
+      ],
+      "impactNotched_xy": [
+        8.6,
+        0.5
+      ],
+      "density": 1.29,
+      "absorption": 0.37,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        260,
+        290
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "fanPct": [
+        0,
+        60
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "Dry state; 100% infill; 270 °C / 80 °C / 100 mm/s; annealed and dried 80 °C 12 h",
+      "url": "https://store.bblcdn.com/9690d6226f024acab2ba0dd52dabb654.pdf",
+      "ref": "turn12view0"
+    },
+    {
+      "id": "tpu95a-hf",
+      "name": "TPU 95A HF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        9.8,
+        0.7
+      ],
+      "E_z": [
+        7.4,
+        0.6
+      ],
+      "tensile_xy": [
+        27.3,
+        0.8
+      ],
+      "tensile_z": [
+        22.3,
+        0.6
+      ],
+      "flexuralModulus_xy": null,
+      "flexuralModulus_z": null,
+      "flexuralStrength_xy": null,
+      "flexuralStrength_z": null,
+      "impact_xy": [
+        123.2,
+        0
+      ],
+      "impact_z": [
+        86.3,
+        0
+      ],
+      "impactNotched_xy": null,
+      "density": 1.22,
+      "absorption": 1.08,
+      "dryC": 70,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        220,
+        240
+      ],
+      "bedC": [
+        30,
+        35
+      ],
+      "fanPct": [
+        100,
+        100
+      ],
+      "chamberC": [
+        25,
+        45
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; 230 °C / 35 °C / 140 mm/s; annealed and dried 70 °C 12 h",
+      "sourceCaution": "TPU high elongation / hyperelastic behavior. Linear small-strain FEA based on initial E is valid only for very small deformation; do not extrapolate E to ultimate stress or use tensile_strength/E as permissible strain.",
+      "url": "https://cdn.shopify.com/s/files/1/0584/7236/6216/files/Bambu_TPU_95A_HF_Technical_Data_Sheet.pdf?v=1700101819",
+      "ref": "turn10view4"
+    },
+    {
+      "id": "ppa-cf",
+      "name": "PPA-CF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        11800,
+        670
+      ],
+      "E_z": [
+        4300,
+        340
+      ],
+      "tensile_xy": [
+        168,
+        4
+      ],
+      "tensile_z": [
+        57,
+        5
+      ],
+      "flexuralModulus_xy": [
+        9860,
+        480
+      ],
+      "flexuralModulus_z": [
+        3240,
+        360
+      ],
+      "flexuralStrength_xy": [
+        208,
+        6
+      ],
+      "flexuralStrength_z": [
+        63,
+        4
+      ],
+      "impact_xy": [
+        41.7,
+        2.8
+      ],
+      "impact_z": [
+        4.3,
+        0.4
+      ],
+      "impactNotched_xy": [
+        6.5,
+        2.3
+      ],
+      "density": 1.25,
+      "absorption": 1.3,
+      "dryC": 100,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        280,
+        310
+      ],
+      "bedC": [
+        100,
+        120
+      ],
+      "chamberC": [
+        50,
+        80
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; X1C; chamber 52 C; nozzle 290 C / bed 110 C / 80 mm/s; not annealed before testing",
+      "url": "https://store.bblcdn.eu/s8/default/f592e57fe69c40289897513bdd2b61bc/Bambus_PPA-CF_Technical_Data_Sheet_2ab26420-79f5-4692-888e-090006814050.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "dryCRange": [
+        100,
+        140
+      ],
+      "fanPct": null,
+      "hdt045C": 227,
+      "enclosureRequired": true,
+      "minimumConfirmedChamberC": 50,
+      "sourceCaution": "Для автоподбора требуется подтвердить достижимую температуру камеры от 50 °C. Образцы TDS печатались при 52 °C; обычная закрытая камера без замера не подтверждает эти условия."
+    },
+    {
+      "id": "pps-cf",
+      "name": "PPS-CF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        8230,
+        270
+      ],
+      "E_z": [
+        2850,
+        160
+      ],
+      "tensile_xy": [
+        87,
+        5
+      ],
+      "tensile_z": [
+        24,
+        3
+      ],
+      "flexuralModulus_xy": [
+        7160,
+        280
+      ],
+      "flexuralModulus_z": [
+        2460,
+        190
+      ],
+      "flexuralStrength_xy": [
+        142,
+        5
+      ],
+      "flexuralStrength_z": [
+        36,
+        4
+      ],
+      "impact_xy": [
+        27.8,
+        2.3
+      ],
+      "impact_z": [
+        2.8,
+        0.4
+      ],
+      "impactNotched_xy": [
+        6.2,
+        1.6
+      ],
+      "density": 1.26,
+      "absorption": 0.05,
+      "dryC": 100,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        310,
+        340
+      ],
+      "bedC": [
+        100,
+        120
+      ],
+      "chamberC": [
+        60,
+        90
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; X1E; chamber 60 C; nozzle 320 C / bed 110 C / 60 mm/s; not annealed before testing",
+      "url": "https://store.bblcdn.eu/s8/default/623b28bf2fbe495fa9dd559a85f494ed/Bambu_PPS-CF_Technical_Data_Sheet.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "dryCRange": [
+        100,
+        140
+      ],
+      "fanPct": [
+        0,
+        40
+      ],
+      "hdt045C": 264,
+      "enclosureRequired": true,
+      "minimumConfirmedChamberC": 60,
+      "sourceCaution": "Для автоподбора требуется сопло от 310 °C и подтверждённая температура камеры от 60 °C. Условия образцов X1E не переносятся автоматически на X1C."
+    },
+    {
+      "id": "pla-cf",
+      "name": "PLA-CF",
+      "version": "TDS V2.0 (filename V3)",
+      "E_xy": [
+        2790,
+        120
+      ],
+      "E_z": [
+        2160,
+        90
+      ],
+      "tensile_xy": [
+        38,
+        4
+      ],
+      "tensile_z": [
+        26,
+        2
+      ],
+      "flexuralModulus_xy": [
+        3950,
+        190
+      ],
+      "flexuralModulus_z": [
+        2260,
+        180
+      ],
+      "flexuralStrength_xy": [
+        89,
+        4
+      ],
+      "flexuralStrength_z": [
+        49,
+        3
+      ],
+      "impact_xy": [
+        23.2,
+        3.7
+      ],
+      "impact_z": [
+        7.8,
+        0.7
+      ],
+      "impactNotched_xy": [
+        7.6,
+        2.6
+      ],
+      "density": 1.22,
+      "absorption": 0.42,
+      "dryC": 55,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        210,
+        240
+      ],
+      "bedC": [
+        35,
+        45
+      ],
+      "chamberC": [
+        25,
+        45
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; nozzle 230 C / bed 35 C / 180 mm/s; annealed and dried 55 C 8 h",
+      "url": "https://cdn.shopify.com/s/files/1/0584/7236/6216/files/Bambu_PLA-CF_Technical_Data_Sheet_V3.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": null,
+      "hdt045C": 55,
+      "bedNote": "Диапазон TDS включает Cool Plate; для PEI используйте профиль выбранной пластины.",
+      "sourceCaution": "В TDS последняя строка ударных испытаний повторяет метку XY. Значение 7,8 кДж/м² отнесено к Z по официальной таблице сравнения Bambu Lab; это сопоставление источников, а не отдельный результат испытаний.",
+      "crosscheckUrl": "https://bambulab-eu.myshopify.com/products/pla-cf"
+    },
+    {
+      "id": "petg-cf",
+      "name": "PETG-CF",
+      "version": "TDS V3.0",
+      "E_xy": [
+        2460,
+        230
+      ],
+      "E_z": [
+        1340,
+        150
+      ],
+      "tensile_xy": [
+        35,
+        5
+      ],
+      "tensile_z": [
+        29,
+        4
+      ],
+      "flexuralModulus_xy": [
+        2910,
+        260
+      ],
+      "flexuralModulus_z": [
+        1560,
+        180
+      ],
+      "flexuralStrength_xy": [
+        70,
+        5
+      ],
+      "flexuralStrength_z": [
+        48,
+        4
+      ],
+      "impact_xy": [
+        41.2,
+        2.6
+      ],
+      "impact_z": [
+        10.7,
+        1.6
+      ],
+      "impactNotched_xy": [
+        15.7,
+        1.6
+      ],
+      "density": 1.25,
+      "absorption": 0.3,
+      "dryC": 65,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        240,
+        270
+      ],
+      "bedC": [
+        65,
+        75
+      ],
+      "chamberC": [
+        35,
+        50
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; nozzle 255 C / bed 70 C / 150 mm/s; annealed and dried 65 C 8 h",
+      "url": "https://store.bblcdn.com/4bca480a5e5f4affa2754c67aeb1b4e2.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": [
+        0,
+        60
+      ],
+      "hdt045C": 74,
+      "sourceCaution": "В примечании TDS к отжигу перепутаны температура и время. Программа использует только однозначные режимы сушки и подготовки образцов; автоматического назначения отжига нет."
+    },
+    {
+      "id": "abs-gf",
+      "name": "ABS-GF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        3160,
+        170
+      ],
+      "E_z": [
+        2250,
+        130
+      ],
+      "tensile_xy": [
+        36,
+        3
+      ],
+      "tensile_z": [
+        29,
+        3
+      ],
+      "flexuralModulus_xy": [
+        2860,
+        130
+      ],
+      "flexuralModulus_z": [
+        1970,
+        110
+      ],
+      "flexuralStrength_xy": [
+        68,
+        4
+      ],
+      "flexuralStrength_z": [
+        46,
+        3
+      ],
+      "impact_xy": [
+        14.5,
+        1.5
+      ],
+      "impact_z": [
+        5.3,
+        1.4
+      ],
+      "impactNotched_xy": [
+        4.2,
+        1.1
+      ],
+      "density": 1.08,
+      "absorption": 0.53,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        240,
+        280
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; nozzle 270 C / bed 80 C / 150 mm/s; annealed and dried 80 C 12 h",
+      "url": "https://store.bblcdn.com/2450f3fe0251448c91c5a191b7cb6a1e.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": [
+        0,
+        80
+      ],
+      "hdt045C": 99,
+      "enclosureRequired": true
+    },
+    {
+      "id": "asa-cf",
+      "name": "ASA-CF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        4200,
+        270
+      ],
+      "E_z": [
+        2290,
+        260
+      ],
+      "tensile_xy": [
+        34,
+        3
+      ],
+      "tensile_z": [
+        30,
+        4
+      ],
+      "flexuralModulus_xy": [
+        3740,
+        130
+      ],
+      "flexuralModulus_z": [
+        1350,
+        120
+      ],
+      "flexuralStrength_xy": [
+        72,
+        5
+      ],
+      "flexuralStrength_z": [
+        33,
+        3
+      ],
+      "impact_xy": [
+        14,
+        2.2
+      ],
+      "impact_z": [
+        9.4,
+        0.6
+      ],
+      "impactNotched_xy": [
+        6.2,
+        1.4
+      ],
+      "density": 1.02,
+      "absorption": 0.33,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        250,
+        280
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; footnote: nozzle 275 C / bed 90 C / 200 mm/s; annealed and dried 80 C 12 h",
+      "url": "https://store.bblcdn.com/8bf21b8c53ef4442afe9b9a7f60a5c27.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": null,
+      "hdt045C": 110,
+      "enclosureRequired": true,
+      "sourceCaution": "В таблице подготовки образцов указаны 220/35 °C, а в пояснении — 275/90 °C. Условия сохранены по пояснению TDS; противоречие отмечено, значения механики взяты из этой же версии."
+    },
+    {
+      "id": "pa6-gf",
+      "name": "PA6-GF",
+      "version": "TDS V1.0",
+      "E_xy": [
+        2850,
+        260
+      ],
+      "E_z": [
+        1950,
+        210
+      ],
+      "tensile_xy": [
+        75,
+        6
+      ],
+      "tensile_z": [
+        27,
+        5
+      ],
+      "flexuralModulus_xy": [
+        3670,
+        140
+      ],
+      "flexuralModulus_z": [
+        2300,
+        120
+      ],
+      "flexuralStrength_xy": [
+        120,
+        6
+      ],
+      "flexuralStrength_z": [
+        51,
+        5
+      ],
+      "impact_xy": [
+        27.2,
+        2.2
+      ],
+      "impact_z": [
+        4.1,
+        0.7
+      ],
+      "impactNotched_xy": [
+        7.2,
+        2.3
+      ],
+      "density": 1.14,
+      "absorption": 2.56,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        12
+      ],
+      "nozzleC": [
+        260,
+        290
+      ],
+      "bedC": [
+        80,
+        100
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.4,
+        0.6,
+        0.8
+      ],
+      "recommendedNozzle": 0.6,
+      "hardenedRequired": true,
+      "conditioning": "100% infill; nozzle 265 C / bed 100 C / 100 mm/s; annealed and dried 80 C 12 h",
+      "url": "https://wiki.bambulab.com/filament-acc/absgf-pa6gf/bambu_pa6-gf_technical_data_sheet.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": [
+        0,
+        60
+      ],
+      "hdt045C": 182,
+      "enclosureRequired": true,
+      "sourceCopyUrl": "https://www.additive-x.com/shop/pub/media/mageplaza/product_attachments/attachment_file/b/a/bambu_pa6-gf_technical_data_sheet_6.pdf"
+    },
+    {
+      "id": "pc-fr",
+      "name": "PC FR",
+      "version": "TDS V1.0",
+      "E_xy": [
+        1670,
+        40
+      ],
+      "E_z": [
+        1450,
+        60
+      ],
+      "tensile_xy": [
+        60,
+        4
+      ],
+      "tensile_z": [
+        21,
+        3
+      ],
+      "flexuralModulus_xy": [
+        1890,
+        70
+      ],
+      "flexuralModulus_z": [
+        1660,
+        80
+      ],
+      "flexuralStrength_xy": [
+        90,
+        4
+      ],
+      "flexuralStrength_z": [
+        47,
+        2
+      ],
+      "impact_xy": [
+        55,
+        2.1
+      ],
+      "impact_z": [
+        8,
+        0.4
+      ],
+      "impactNotched_xy": [
+        8.4,
+        1.3
+      ],
+      "density": 1.18,
+      "absorption": 0.12,
+      "dryC": 80,
+      "dryHours": [
+        8,
+        8
+      ],
+      "nozzleC": [
+        260,
+        280
+      ],
+      "bedC": [
+        90,
+        110
+      ],
+      "chamberC": [
+        45,
+        60
+      ],
+      "nozzleMm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "hardenedRequired": false,
+      "conditioning": "100% infill; nozzle 270 C / bed 100 C / 100 mm/s; annealed and dried 80 C 12 h",
+      "url": "https://store.bblcdn.eu/s8/default/bd3944b810d845df9549dd4d7a6168d7/Bambu_PC_FR_Technical_Data_Sheet.pdf",
+      "checked_on": "2026-10-27",
+      "sourcePublisher": "Bambu Lab",
+      "fanPct": [
+        0,
+        60
+      ],
+      "hdt045C": 113,
+      "enclosureRequired": true
+    }
+  ]
+}

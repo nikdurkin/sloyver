@@ -1,0 +1,3 @@
+// Bed appearance is a view aid. It never participates in model picking.
+export function bedAppearance(elevation){const below=Number.isFinite(elevation)&&elevation<0;return {below,surfaceOpacity:below?.12:1,gridOpacity:below?.09:.30,borderOpacity:below?.24:.8,shadowOpacity:below?0:.22,depthWrite:!below};}
+export function syncBedAppearance(group,elevation){const a=bedAppearance(elevation);for(const o of group?.children||[]){const role=o.userData?.bedRole;if(!role||!o.material)continue;const opacity={surface:a.surfaceOpacity,grid:a.gridOpacity,border:a.borderOpacity,shadow:a.shadowOpacity}[role];o.material.transparent=true;o.material.opacity=opacity;o.material.depthWrite=role==='surface'?a.depthWrite:false;o.raycast=()=>{};}return a;}

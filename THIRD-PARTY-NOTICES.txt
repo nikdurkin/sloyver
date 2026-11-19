@@ -1,0 +1,33 @@
+Слойвер Desktop 1.8.0
+
+Electron — MIT, Electron contributors / OpenJS Foundation.
+Chromium — BSD and third-party licenses, listed in LICENSES.chromium.html
+included with the Electron runtime.
+
+Three.js — MIT, Three.js authors. Full license:
+renderer/vendor/THREE-LICENSE.txt.
+
+fflate — MIT, Arjun Barrett. License header retained in
+renderer/vendor/libs/fflate.module.js.
+
+occt-import-js / Open CASCADE Technology — LGPL-2.1 with the Open CASCADE
+exception. License retained in renderer/vendor/OCCT-LICENSE.md.
+Source: https://github.com/kovacsv/occt-import-js
+The WebAssembly binary and loader are bundled locally and remain replaceable
+by rebuilding the application from the accompanying source archive.
+
+Filament property values are reference measurements by Bambu Lab; links to
+the original Technical Data Sheets are retained in renderer/materials.json.
+Price references, seller URLs, package sizes and dates are retained in
+renderer/prices.json. Bambu Lab names are used to identify materials.
+
+This application is not an official Bambu Lab product.
+
+Bambu Studio profile reference data (printer names, nozzle combinations, build dimensions, preset identifiers, nominal layer heights and initial print temperatures)
+Reference: Bambu Studio v02.08.02.61 resources/profiles/BBL, Bambu Lab.
+https://github.com/bambulab/BambuStudio/tree/v02.08.02.61/resources/profiles/BBL
+No vendor G-code or complete vendor preset implementation is bundled. Native project preset references inherit locally installed slicer profiles. Sloyver is not affiliated with Bambu Lab. The 3MF Application compatibility tag uses BambuStudio with explicit Sloyver build metadata so Bambu Studio reads project-wide settings; Sloyver is also identified separately as the generator.
+
+Official Bambu Lab US / EU storefront price snapshots, selected variants, currencies and pack masses: 2026-10-28. Exchange-rate snapshot: Central Bank of Russia, 2026-10-28. Sources and dates are retained in prices.json and currency.js.
+
+English UI translation assistance used OPUS-MT ru-en (Helsinki-NLP / University of Helsinki, CC BY 4.0), followed by manual technical edits. Model reference: https://huggingface.co/Helsinki-NLP/opus-mt-ru-en . Model weights and translation runtime are not included. User projects are not sent to a translation service.

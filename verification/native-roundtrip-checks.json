@@ -1,0 +1,42 @@
+[
+  {
+    "id": "h2d-0.4",
+    "printer": "h2d",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "h2s-0.4",
+    "printer": "h2s",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "p1s-0.4",
+    "printer": "p1s",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  },
+  {
+    "id": "x1c-0.4",
+    "printer": "x1c",
+    "nozzle": 0.4,
+    "exit": 0,
+    "settingsRetained": true,
+    "physicalMeshParts": 1,
+    "modifiers": 1,
+    "modifierPreserved": true
+  }
+]

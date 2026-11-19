@@ -1,0 +1,4 @@
+import fs from 'node:fs';import * as THREE from '../renderer/vendor/three.module.js';import {makeProject3MF} from '../renderer/project-3mf.js';
+const positions=new Float32Array(new THREE.BoxGeometry(40,20,20).toNonIndexed().attributes.position.array),pose={basis:[[1,0,0],[0,1,0],[0,0,1]],min:[-20,-10,-10],max:[20,10,10]},profile={nozzle:.4,layer:.2,walls:4,infill:23,top:5,bottom:5,outerSpeed:60,innerSpeed:120,supportSetting:'off',brim:'Без каймы',plate:'textured'},material={id:'pla-basic',name:'PLA Basic',density:1.24,nozzleC:[220,220],bedC:[55,55]},regions=[{id:'local-1',center:[-10,0,0],size:[12,20,20],walls:8}];
+for(const printer of ['x1c','p1s','h2d','h2s'])fs.writeFileSync(new URL('./'+printer+'-reinforcement.3mf',import.meta.url),makeProject3MF({positions,pose,profile,material,regions,printer}).bytes);
+fs.writeFileSync(new URL('./x1c-solid.3mf',import.meta.url),makeProject3MF({positions,pose,profile:{...profile,infill:100},material}).bytes);

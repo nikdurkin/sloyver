@@ -1,0 +1,49 @@
+{
+  "application": "Слойвер / Sloyver Desktop",
+  "version": "1.7.2",
+  "date": "2026-10-28",
+  "changes": [
+    "Russian name Слойвер; English name Sloyver",
+    "Interface, native dialogs, reports, 3MF presets and generator metadata, executable and documentation renamed"
+  ],
+  "automatedTests": {
+    "tests": 192,
+    "pass": 192,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "compatibility": {
+    "projectExtension": ".sloy",
+    "projectVersions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "userData": "%APPDATA%\\SloyDesktop",
+    "appId": "com.sloy.desktop",
+    "origin": "sloy://app",
+    "storageAndIpcIdentifiersRetained": true
+  },
+  "package": {
+    "sourceByteMatches": true,
+    "packagedFiles": 80,
+    "machine": "0x8664",
+    "portableContainerTest": "passed",
+    "embeddedPayloadCrcTest": "passed",
+    "portableAsarMatchesUnpacked": true,
+    "windowsProductName": "Слойвер",
+    "windowsExecutableName": "Sloyver.exe"
+  },
+  "limits": {
+    "nativeWindowsLaunch": false,
+    "browserUiCheck": false,
+    "nativeSlicerRegression": "Not rerun for the rename. Previous 1.7.1 validation is retained in verification/.",
+    "physicalStrengthValidation": "Not performed."
+  }
+}
